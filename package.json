@@ -1,0 +1,17 @@
+{
+  "name": "mlm-desktop",
+  "version": "1.0.0",
+  "description": "MLM Destop Software Using PHP and SQLite3",
+  "main": "mlm-desktop.exe",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mlm",
+    "desktop",
+    "sqlite",
+    "sqlite3"
+  ],
+  "author": "Rajon Kobir",
+  "license": "ISC"
+}

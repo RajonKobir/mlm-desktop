@@ -1,0 +1,53 @@
+/* join member join.php */
+
+
+/*  join page   */
+.join_radio{
+    width: 15px;
+    height: 15px;
+}
+
+
+
+/*  home page   */
+.panel-body{
+    color:blue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.panel-title{
+    text-align: center;
+}
+#first_header{
+    font-size: 20px;
+}
+.red{
+    color:red;
+}
+
+
+/*  profile page   */
+#search{
+    width: 100%;
+    height: 35px;
+}
+
+
+
+/* tree.php */
+i{
+    display:none;
+}
+
+
+/* index.php */
+
+
+
+
+
+
+
+
+
