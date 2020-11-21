@@ -3,6 +3,6 @@ session_start();
 if(isset($_SESSION['id']) && $_SESSION['login_type']=='admin'){
 }
 else{
-	echo '<script>alert("Access denied");window.location.assign("index.php");</script>';
+	echo '<script>alert("Access denied");window.location.assign("../index.php");</script>';
 }
 ?>

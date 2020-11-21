@@ -5696,3 +5696,268 @@ cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
 - 11:07:08.562 DEBUG: Calling CefQuitMessageLoop()
 - 11:07:08.859 INFO: Ended application
 - 11:07:08.859 INFO: --------------------------------------------------------
+- 13:34:46.172 INFO: --------------------------------------------------------
+- 13:34:46.172 INFO: Started application
+- 13:34:46.172 INFO: Logging to: E:\Runing-Projects\mlm-desktop\debug.log
+- 13:34:46.172 INFO: Log level = DEBUG4
+- 13:34:46.187 INFO: Starting Mongoose 3.9c web server
+- 13:34:46.187 INFO: WWW directory: E:\Runing-Projects\mlm-desktop\www
+- 13:34:46.187 INFO: Index files: index.html,index.php
+- 13:34:46.187 INFO: CGI interpreter: E:\Runing-Projects\mlm-desktop\php\php-cgi.exe
+- 13:34:46.187 INFO: CGI pattern: **.php$
+- 13:34:46.187 INFO: Hide files patterns: 
+- 13:34:46.187 INFO: CGI environment variables set: TMP=C:\Users\RAJON\AppData\Local\Temp\,TEMP=C:\Users\RAJON\AppData\Local\Temp\,TMPDIR=C:\Users\RAJON\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 13:34:46.219 INFO: Web server url: http://127.0.0.1:3308/
+- 13:34:46.250 INFO: remote_debugging_port = 59504
+- 13:34:46.469 DEBUG: Command line string for the browser process: "E:\Runing-Projects\mlm-desktop\mlm-desktop.exe" --no-sandbox --lang=en-US --log-file="E:\Runing-Projects\mlm-desktop\debug.log" --remote-debugging-port=59504
+- 13:34:57.031 DEBUG: Command line string for the gpu-process process: "E:\Runing-Projects\mlm-desktop\mlm-desktop.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="E:\Runing-Projects\mlm-desktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0116 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=9.17.10.4459 --gpu-driver-date=5-19-2016 --lang=en-US --log-file="E:\Runing-Projects\mlm-desktop\debug.log" --service-request-channel-token=9FEEE63F66C2290A17A4064CB26B6CF1 --mojo-platform-channel-handle=1792 /prefetch:2
+[0820/133458.760:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 13:34:59.547 DEBUG: App::OnContextInitialized()
+- 13:34:59.547 DEBUG: Window max width/height = 1286/680
+- 13:34:59.547 DEBUG: GetBrowserWindow(): not found, hwnd = 590506
+- 13:34:59.547 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 13:34:59.578 DEBUG: BrowserWindow::CreateBrowserControl()
+- 13:34:59.594 DEBUG: StoreBrowserWindow(): hwnd = 590506
+- 13:35:00.531 DEBUG: ClientHandler::OnAfterCreated()
+- 13:35:00.531 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 13:35:00.000 DEBUG: Command line string for the renderer process: "E:\Runing-Projects\mlm-desktop\mlm-desktop.exe" --type=renderer --no-sandbox --primordial-pipe-token=E1C5B9CFDC98FB941D0405617BE57D39 --lang=en-US --lang=en-US --log-file="E:\Runing-Projects\mlm-desktop\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=E1C5B9CFDC98FB941D0405617BE57D39 --renderer-client-id=3 --mojo-platform-channel-handle=2368 /prefetch:1
+- 13:35:00.812 DEBUG: OnLoadingStateChange: loading=1, url=
+- 13:35:03.156 DEBUG: OnBrowserCreated()
+- 13:35:09.515 INFO: GET 200 /
+- 13:35:09.781 INFO: GET 304 /vendor/bootstrap/css/bootstrap.min.css
+- 13:35:09.781 INFO: GET 304 /vendor/font-awesome/css/font-awesome.min.css
+- 13:35:09.781 INFO: GET 304 /vendor/jquery/jquery.min.js
+- 13:35:09.797 INFO: GET 304 /vendor/bootstrap/js/bootstrap.min.js
+- 13:35:09.812 INFO: GET 304 /dist/css/sb-admin-2.css
+- 13:35:09.812 INFO: GET 304 /dist/css/rajon.css
+- 13:35:09.812 INFO: GET 304 /vendor/metisMenu/metisMenu.min.css
+- 13:35:09.812 INFO: GET 304 /vendor/metisMenu/metisMenu.min.js
+- 13:35:09.812 INFO: GET 304 /dist/js/sb-admin-2.js
+- 13:35:09.437 DEBUG: OnContextCreated()
+- 13:35:10.000 INFO: GET 304 /vendor/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3
+- 13:35:12.047 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:3308/
+- 13:35:24.015 DEBUG: WM_DESTROY
+- 13:35:24.015 DEBUG: RemoveBrowserWindow(): hwnd = 590506
+- 13:35:24.015 INFO: Stopping Mongoose web server
+- 13:35:24.015 DEBUG: Mongoose webserver stopped immediately
+- 13:35:24.015 DEBUG: OnBeforeClose() hwnd=787080
+- 13:35:24.015 DEBUG: RemoveBrowserWindow(): hwnd = 787080
+- 13:35:24.015 DEBUG: GetBrowserWindow(): not found, hwnd = 787080
+- 13:35:24.015 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 13:35:24.015 DEBUG: Calling CefQuitMessageLoop()
+- 13:35:24.328 DEBUG: OnBrowserDestroyed()
+- 13:35:24.328 INFO: Ended application
+- 13:35:24.328 INFO: --------------------------------------------------------
+- 17:19:28.203 INFO: --------------------------------------------------------
+- 17:19:28.218 INFO: Started application
+- 17:19:28.218 INFO: Logging to: D:\Runing-Projects\mlm-desktop\debug.log
+- 17:19:28.218 INFO: Log level = DEBUG4
+- 17:19:28.218 INFO: Starting Mongoose 3.9c web server
+- 17:19:28.218 INFO: WWW directory: D:\Runing-Projects\mlm-desktop\www
+- 17:19:28.218 INFO: Index files: index.html,index.php
+- 17:19:28.218 INFO: CGI interpreter: D:\Runing-Projects\mlm-desktop\php\php-cgi.exe
+- 17:19:28.218 INFO: CGI pattern: **.php$
+- 17:19:28.218 INFO: Hide files patterns: 
+- 17:19:28.218 INFO: CGI environment variables set: TMP=C:\Users\Rajon\AppData\Local\Temp\,TEMP=C:\Users\Rajon\AppData\Local\Temp\,TMPDIR=C:\Users\Rajon\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 17:19:28.265 INFO: Web server url: http://127.0.0.1:3308/
+- 17:19:28.328 INFO: remote_debugging_port = 61241
+- 17:19:28.593 DEBUG: Command line string for the browser process: "D:\Runing-Projects\mlm-desktop\mlm-desktop.exe" --no-sandbox --lang=en-US --log-file="D:\Runing-Projects\mlm-desktop\debug.log" --remote-debugging-port=61241
+- 17:19:38.031 DEBUG: Command line string for the gpu-process process: "D:\Runing-Projects\mlm-desktop\mlm-desktop.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\Runing-Projects\mlm-desktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0116 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=9.17.10.4459 --gpu-driver-date=5-19-2016 --lang=en-US --log-file="D:\Runing-Projects\mlm-desktop\debug.log" --service-request-channel-token=BA413C0089296F0EF7E8F335177BC9D5 --mojo-platform-channel-handle=1796 /prefetch:2
+- 17:19:40.797 DEBUG: App::OnContextInitialized()
+- 17:19:40.859 DEBUG: Window max width/height = 1286/680
+- 17:19:40.875 DEBUG: GetBrowserWindow(): not found, hwnd = 197868
+- 17:19:40.875 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 17:19:41.281 DEBUG: BrowserWindow::CreateBrowserControl()
+- 17:19:41.281 DEBUG: StoreBrowserWindow(): hwnd = 197868
+- 17:19:42.031 DEBUG: ClientHandler::OnAfterCreated()
+- 17:19:42.031 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 17:19:43.000 DEBUG: Command line string for the renderer process: "D:\Runing-Projects\mlm-desktop\mlm-desktop.exe" --type=renderer --no-sandbox --primordial-pipe-token=63DCF660CEE2386F5C23BBC5DEF4BE8D --lang=en-US --lang=en-US --log-file="D:\Runing-Projects\mlm-desktop\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=63DCF660CEE2386F5C23BBC5DEF4BE8D --renderer-client-id=3 --mojo-platform-channel-handle=2372 /prefetch:1
+- 17:19:43.750 DEBUG: OnLoadingStateChange: loading=1, url=
+[1121/171944.690:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 17:19:47.922 DEBUG: OnBrowserCreated()
+- 17:19:52.703 INFO: GET 200 /
+- 17:19:53.719 DEBUG: OnContextCreated()
+- 17:19:53.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:3308/
+- 17:19:53.343 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:3308/
+- 17:19:54.062 INFO: GET 200 /pages/index.php
+- 17:19:54.562 DEBUG: OnContextCreated()
+- 17:19:54.140 INFO: GET 304 /vendor/bootstrap/css/bootstrap.min.css
+- 17:19:54.156 INFO: GET 404 /vendor/metisMenu/metisMenu.min.css
+- 17:19:54.156 INFO: GET 304 /vendor/font-awesome/css/font-awesome.min.css
+- 17:19:54.156 INFO: GET 304 /vendor/jquery/jquery.min.js
+- 17:19:54.156 INFO: GET 304 /vendor/bootstrap/js/bootstrap.min.js
+- 17:19:54.156 INFO: GET 200 /assets/css/rajon.css
+- 17:19:54.187 INFO: GET 200 /assets/css/sb-admin-2.css
+- 17:19:55.203 INFO: GET 404 /vendor/metisMenu/metisMenu.min.js
+- 17:19:55.203 INFO: GET 200 /assets/js/sb-admin-2.js
+- 17:19:55.047 INFO: GET 404 /vendor/metisMenu/metisMenu.min.js
+- 17:19:55.156 INFO: GET 304 /vendor/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3
+- 17:19:57.281 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:3308/pages/index.php
+[1121/171957.171:INFO:CONSOLE(2)] "jQuery.Deferred exception: $(...).metisMenu is not a function", source: http://127.0.0.1:3308/vendor/jquery/jquery.min.js (2)
+[1121/171957.172:INFO:CONSOLE(2)] "Uncaught TypeError: $(...).metisMenu is not a function", source: http://127.0.0.1:3308/vendor/jquery/jquery.min.js (2)
+- 17:20:30.125 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:3308/pages/index.php
+- 17:20:32.437 DEBUG: OnContextCreated()
+- 17:20:32.984 INFO: GET 304 /vendor/bootstrap/css/bootstrap.min.css
+- 17:20:32.984 INFO: GET 404 /vendor/metisMenu/metisMenu.min.css
+- 17:20:32.000 INFO: GET 304 /vendor/font-awesome/css/font-awesome.min.css
+- 17:20:32.000 INFO: POST 200 /pages/index.php
+- 17:20:32.078 INFO: GET 304 /vendor/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3
+- 17:20:34.984 INFO: GET 304 /vendor/jquery/jquery.min.js
+- 17:20:34.984 INFO: GET 304 /vendor/bootstrap/js/bootstrap.min.js
+- 17:20:34.984 INFO: GET 404 /vendor/metisMenu/metisMenu.min.js
+- 17:20:35.984 DEBUG: OnContextCreated()
+- 17:20:35.515 INFO: GET 200 /pages/index.php
+- 17:20:35.531 INFO: GET 304 /vendor/bootstrap/css/bootstrap.min.css
+- 17:20:35.531 INFO: GET 404 /vendor/metisMenu/metisMenu.min.css
+- 17:20:35.531 INFO: GET 304 /vendor/font-awesome/css/font-awesome.min.css
+- 17:20:35.547 INFO: GET 304 /vendor/jquery/jquery.min.js
+- 17:20:35.562 INFO: GET 304 /vendor/bootstrap/js/bootstrap.min.js
+- 17:20:35.562 INFO: GET 404 /vendor/metisMenu/metisMenu.min.js
+[1121/172035.509:INFO:CONSOLE(2)] "jQuery.Deferred exception: $(...).metisMenu is not a function", source: http://127.0.0.1:3308/vendor/jquery/jquery.min.js (2)
+- 17:20:35.734 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:3308/pages/index.php
+[1121/172035.549:INFO:CONSOLE(2)] "Uncaught TypeError: $(...).metisMenu is not a function", source: http://127.0.0.1:3308/vendor/jquery/jquery.min.js (2)
+- 17:20:49.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:3308/pages/index.php
+- 17:20:50.562 INFO: POST 200 /actions/login.php
+- 17:20:50.047 DEBUG: OnContextCreated()
+- 17:20:53.422 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:3308/actions/login.php
+- 17:20:53.906 DEBUG: OnContextCreated()
+- 17:20:53.453 INFO: GET 200 /pages/home.php
+- 17:20:53.453 INFO: GET 304 /vendor/bootstrap/css/bootstrap.min.css
+- 17:20:53.468 INFO: GET 404 /vendor/metisMenu/metisMenu.min.css
+- 17:20:53.468 INFO: GET 304 /vendor/font-awesome/css/font-awesome.min.css
+- 17:20:53.484 INFO: GET 304 /vendor/jquery/jquery.min.js
+- 17:20:53.484 INFO: GET 304 /vendor/bootstrap/js/bootstrap.min.js
+- 17:20:53.484 INFO: GET 404 /vendor/metisMenu/metisMenu.min.js
+- 17:20:53.531 INFO: GET 200 /assets/images/favicon.png
+- 17:20:53.687 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:3308/pages/home.php
+[1121/172053.499:INFO:CONSOLE(2)] "jQuery.Deferred exception: $(...).metisMenu is not a function", source: http://127.0.0.1:3308/vendor/jquery/jquery.min.js (2)
+[1121/172053.567:INFO:CONSOLE(2)] "Uncaught TypeError: $(...).metisMenu is not a function", source: http://127.0.0.1:3308/vendor/jquery/jquery.min.js (2)
+- 17:20:59.968 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:3308/pages/home.php
+- 17:21:00.766 DEBUG: OnContextCreated()
+- 17:21:00.312 INFO: GET 304 /vendor/bootstrap/css/bootstrap.min.css
+- 17:21:00.328 INFO: GET 404 /vendor/metisMenu/metisMenu.min.css
+- 17:21:00.328 INFO: GET 304 /vendor/font-awesome/css/font-awesome.min.css
+- 17:21:00.359 INFO: GET 200 /pages/tree.php
+- 17:21:00.406 INFO: GET 304 /vendor/jquery/jquery.min.js
+- 17:21:00.406 INFO: GET 304 /vendor/bootstrap/js/bootstrap.min.js
+- 17:21:00.406 INFO: GET 404 /vendor/metisMenu/metisMenu.min.js
+- 17:21:00.515 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:3308/pages/tree.php
+[1121/172100.330:INFO:CONSOLE(2)] "jQuery.Deferred exception: $(...).metisMenu is not a function", source: http://127.0.0.1:3308/vendor/jquery/jquery.min.js (2)
+[1121/172100.339:INFO:CONSOLE(2)] "Uncaught TypeError: $(...).metisMenu is not a function", source: http://127.0.0.1:3308/vendor/jquery/jquery.min.js (2)
+- 17:21:06.968 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:3308/pages/tree.php
+- 17:21:07.312 DEBUG: OnContextCreated()
+- 17:21:07.859 INFO: GET 200 /pages/join.php
+- 17:21:07.859 INFO: GET 304 /vendor/bootstrap/css/bootstrap.min.css
+- 17:21:07.859 INFO: GET 404 /vendor/metisMenu/metisMenu.min.css
+- 17:21:07.859 INFO: GET 304 /vendor/font-awesome/css/font-awesome.min.css
+- 17:21:07.906 INFO: GET 304 /vendor/jquery/jquery.min.js
+- 17:21:07.906 INFO: GET 304 /vendor/bootstrap/js/bootstrap.min.js
+- 17:21:07.922 INFO: GET 404 /vendor/metisMenu/metisMenu.min.js
+- 17:21:07.047 INFO: GET 404 /vendor/metisMenu/metisMenu.min.js
+- 17:21:07.062 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:3308/pages/join.php
+[1121/172107.882:INFO:CONSOLE(2)] "jQuery.Deferred exception: $(...).metisMenu is not a function", source: http://127.0.0.1:3308/vendor/jquery/jquery.min.js (2)
+[1121/172107.892:INFO:CONSOLE(2)] "Uncaught TypeError: $(...).metisMenu is not a function", source: http://127.0.0.1:3308/vendor/jquery/jquery.min.js (2)
+- 17:21:32.640 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:3308/pages/join.php
+- 17:21:33.547 DEBUG: OnContextCreated()
+- 17:21:33.109 INFO: POST 200 /pages/join.php
+- 17:21:35.812 INFO: GET 304 /vendor/bootstrap/css/bootstrap.min.css
+- 17:21:35.812 INFO: GET 404 /vendor/metisMenu/metisMenu.min.css
+- 17:21:35.812 INFO: GET 304 /vendor/font-awesome/css/font-awesome.min.css
+- 17:21:35.828 INFO: GET 304 /vendor/jquery/jquery.min.js
+- 17:21:35.828 INFO: GET 304 /vendor/bootstrap/js/bootstrap.min.js
+- 17:21:35.828 INFO: GET 404 /vendor/metisMenu/metisMenu.min.js
+- 17:21:35.906 INFO: GET 404 /vendor/metisMenu/metisMenu.min.js
+- 17:21:35.922 INFO: GET 304 /vendor/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3
+- 17:21:35.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:3308/pages/join.php
+[1121/172135.845:INFO:CONSOLE(2)] "jQuery.Deferred exception: $(...).metisMenu is not a function", source: http://127.0.0.1:3308/vendor/jquery/jquery.min.js (2)
+[1121/172135.894:INFO:CONSOLE(2)] "Uncaught TypeError: $(...).metisMenu is not a function", source: http://127.0.0.1:3308/vendor/jquery/jquery.min.js (2)
+- 17:21:54.812 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:3308/pages/join.php
+- 17:21:56.922 DEBUG: OnContextCreated()
+- 17:21:56.500 INFO: POST 200 /pages/join.php
+- 17:21:57.797 INFO: GET 304 /vendor/bootstrap/css/bootstrap.min.css
+- 17:21:57.812 INFO: GET 404 /vendor/metisMenu/metisMenu.min.css
+- 17:21:57.812 INFO: GET 304 /vendor/font-awesome/css/font-awesome.min.css
+- 17:21:57.828 INFO: GET 304 /vendor/jquery/jquery.min.js
+- 17:21:57.828 INFO: GET 304 /vendor/bootstrap/js/bootstrap.min.js
+- 17:21:57.828 INFO: GET 404 /vendor/metisMenu/metisMenu.min.js
+- 17:21:57.906 INFO: GET 404 /vendor/metisMenu/metisMenu.min.js
+- 17:21:57.922 INFO: GET 304 /vendor/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3
+- 17:21:57.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:3308/pages/join.php
+[1121/172157.861:INFO:CONSOLE(2)] "jQuery.Deferred exception: $(...).metisMenu is not a function", source: http://127.0.0.1:3308/vendor/jquery/jquery.min.js (2)
+[1121/172157.912:INFO:CONSOLE(2)] "Uncaught TypeError: $(...).metisMenu is not a function", source: http://127.0.0.1:3308/vendor/jquery/jquery.min.js (2)
+- 17:22:00.234 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:3308/pages/join.php
+- 17:22:00.031 DEBUG: OnContextCreated()
+- 17:22:00.578 INFO: GET 304 /vendor/bootstrap/css/bootstrap.min.css
+- 17:22:00.578 INFO: GET 404 /vendor/metisMenu/metisMenu.min.css
+- 17:22:00.593 INFO: GET 304 /vendor/font-awesome/css/font-awesome.min.css
+- 17:22:00.593 INFO: GET 200 /pages/tree.php
+- 17:22:00.672 INFO: GET 304 /vendor/jquery/jquery.min.js
+- 17:22:00.672 INFO: GET 304 /vendor/bootstrap/js/bootstrap.min.js
+- 17:22:00.672 INFO: GET 404 /vendor/metisMenu/metisMenu.min.js
+- 17:22:00.687 INFO: GET 304 /vendor/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3
+- 17:22:00.781 INFO: GET 404 /vendor/metisMenu/metisMenu.min.js
+- 17:22:00.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:3308/pages/tree.php
+[1121/172200.607:INFO:CONSOLE(2)] "jQuery.Deferred exception: $(...).metisMenu is not a function", source: http://127.0.0.1:3308/vendor/jquery/jquery.min.js (2)
+[1121/172200.620:INFO:CONSOLE(2)] "Uncaught TypeError: $(...).metisMenu is not a function", source: http://127.0.0.1:3308/vendor/jquery/jquery.min.js (2)
+- 17:22:06.562 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:3308/pages/tree.php
+- 17:22:06.391 DEBUG: OnContextCreated()
+- 17:22:06.937 INFO: GET 304 /vendor/bootstrap/css/bootstrap.min.css
+- 17:22:06.937 INFO: GET 200 /pages/members_pay_chart.php
+- 17:22:06.937 INFO: GET 404 /vendor/metisMenu/metisMenu.min.css
+- 17:22:06.937 INFO: GET 304 /vendor/font-awesome/css/font-awesome.min.css
+- 17:22:06.953 INFO: GET 304 /vendor/jquery/jquery.min.js
+- 17:22:06.953 INFO: GET 304 /vendor/bootstrap/js/bootstrap.min.js
+- 17:22:06.968 INFO: GET 404 /vendor/metisMenu/metisMenu.min.js
+- 17:22:06.047 INFO: GET 304 /vendor/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3
+- 17:22:06.140 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:3308/pages/members_pay_chart.php
+[1121/172206.949:INFO:CONSOLE(2)] "jQuery.Deferred exception: $(...).metisMenu is not a function", source: http://127.0.0.1:3308/vendor/jquery/jquery.min.js (2)
+[1121/172206.965:INFO:CONSOLE(2)] "Uncaught TypeError: $(...).metisMenu is not a function", source: http://127.0.0.1:3308/vendor/jquery/jquery.min.js (2)
+- 17:22:19.968 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:3308/pages/members_pay_chart.php
+- 17:22:20.750 DEBUG: OnContextCreated()
+- 17:22:20.297 INFO: GET 200 /pages/weekly_bill_out.php
+- 17:22:20.297 INFO: GET 304 /vendor/bootstrap/css/bootstrap.min.css
+- 17:22:20.312 INFO: GET 404 /vendor/metisMenu/metisMenu.min.css
+- 17:22:20.312 INFO: GET 304 /vendor/font-awesome/css/font-awesome.min.css
+- 17:22:20.328 INFO: GET 304 /vendor/jquery/jquery.min.js
+- 17:22:20.328 INFO: GET 304 /vendor/bootstrap/js/bootstrap.min.js
+- 17:22:20.328 INFO: GET 404 /vendor/metisMenu/metisMenu.min.js
+- 17:22:20.422 INFO: GET 304 /vendor/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3
+- 17:22:20.515 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:3308/pages/weekly_bill_out.php
+[1121/172220.329:INFO:CONSOLE(2)] "jQuery.Deferred exception: $(...).metisMenu is not a function", source: http://127.0.0.1:3308/vendor/jquery/jquery.min.js (2)
+[1121/172220.348:INFO:CONSOLE(2)] "Uncaught TypeError: $(...).metisMenu is not a function", source: http://127.0.0.1:3308/vendor/jquery/jquery.min.js (2)
+- 17:22:22.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:3308/pages/weekly_bill_out.php
+- 17:22:22.031 DEBUG: OnContextCreated()
+- 17:22:22.578 INFO: GET 304 /vendor/bootstrap/css/bootstrap.min.css
+- 17:22:22.578 INFO: GET 404 /vendor/metisMenu/metisMenu.min.css
+- 17:22:22.578 INFO: GET 304 /vendor/font-awesome/css/font-awesome.min.css
+- 17:22:23.250 INFO: POST 200 /pages/weekly_bill_out.php
+- 17:22:23.265 INFO: GET 304 /vendor/jquery/jquery.min.js
+- 17:22:23.265 INFO: GET 304 /vendor/bootstrap/js/bootstrap.min.js
+- 17:22:23.281 INFO: GET 404 /vendor/metisMenu/metisMenu.min.js
+- 17:22:23.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:3308/pages/weekly_bill_out.php
+[1121/172223.185:INFO:CONSOLE(2)] "jQuery.Deferred exception: $(...).metisMenu is not a function", source: http://127.0.0.1:3308/vendor/jquery/jquery.min.js (2)
+[1121/172223.194:INFO:CONSOLE(2)] "Uncaught TypeError: $(...).metisMenu is not a function", source: http://127.0.0.1:3308/vendor/jquery/jquery.min.js (2)
+- 17:22:47.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:3308/pages/weekly_bill_out.php
+- 17:22:47.391 DEBUG: OnContextCreated()
+- 17:22:47.937 INFO: GET 200 /pages/members_pay_chart.php
+- 17:22:47.937 INFO: GET 304 /vendor/bootstrap/css/bootstrap.min.css
+- 17:22:47.937 INFO: GET 404 /vendor/metisMenu/metisMenu.min.css
+- 17:22:47.953 INFO: GET 304 /vendor/font-awesome/css/font-awesome.min.css
+- 17:22:47.968 INFO: GET 304 /vendor/jquery/jquery.min.js
+- 17:22:47.968 INFO: GET 304 /vendor/bootstrap/js/bootstrap.min.js
+- 17:22:47.968 INFO: GET 404 /vendor/metisMenu/metisMenu.min.js
+[1121/172247.882:INFO:CONSOLE(2)] "jQuery.Deferred exception: $(...).metisMenu is not a function", source: http://127.0.0.1:3308/vendor/jquery/jquery.min.js (2)
+- 17:22:47.093 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:3308/pages/members_pay_chart.php
+[1121/172247.919:INFO:CONSOLE(2)] "Uncaught TypeError: $(...).metisMenu is not a function", source: http://127.0.0.1:3308/vendor/jquery/jquery.min.js (2)
+- 17:22:57.031 DEBUG: WM_DESTROY
+- 17:22:57.031 DEBUG: RemoveBrowserWindow(): hwnd = 197868
+- 17:22:57.031 INFO: Stopping Mongoose web server
+- 17:22:57.031 DEBUG: Mongoose webserver stopped immediately
+- 17:22:57.062 DEBUG: OnBeforeClose() hwnd=197864
+- 17:22:57.062 DEBUG: RemoveBrowserWindow(): hwnd = 197864
+- 17:22:57.062 DEBUG: GetBrowserWindow(): not found, hwnd = 197864
+- 17:22:57.062 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 17:22:57.062 DEBUG: Calling CefQuitMessageLoop()
+- 17:22:58.687 DEBUG: OnBrowserDestroyed()
+- 17:22:58.453 INFO: Ended application
+- 17:22:58.468 INFO: --------------------------------------------------------

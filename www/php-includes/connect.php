@@ -1,13 +1,13 @@
 <?php
-//date_default_timezone_set('Asia/Dhaka');
+date_default_timezone_set('Asia/Dhaka');
 
 
 // connecting SQLite3 database
-include "./_pdo.php";
+include "../database/_pdo.php";
 
 
 //Connecting to a database file
-$db_file = "./ideal_software.sqlite3";
+$db_file = "../database/ideal_software.sqlite3";
 PDO_Connect("sqlite:$db_file");
 
 

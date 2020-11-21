@@ -8,7 +8,7 @@
                 </button>
                 <a class="navbar-brand" href="http://www.idealitconsultancy.com" target="_blank">
                     <span>
-                        <img src="favicon.png" alt="no image!" width="30" height="30"> 
+                        <img src="../assets/images/favicon.png" alt="no image!" width="30" height="30"> 
                         IDEAL Consultancy & Trading
                     </span> 
                 </a>
@@ -23,12 +23,12 @@
                         <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-message">
-                        <li><a href="member_profile.php"><i class="fa fa-user fa-fw"></i> User Profile</a>
+                        <li><a href="../pages/member_profile.php"><i class="fa fa-user fa-fw"></i> User Profile</a>
                         </li>
-                        <li><a href="settings.php"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                        <li><a href="../actions/settings.php"><i class="fa fa-gear fa-fw"></i> Settings</a>
                         </li>
                         <li class="divider"></li>
-                        <li><a href="logout.php"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        <li><a href="../actions/logout.php"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
                         </li>
                     </ul>
                     <!-- /.dropdown-user -->
@@ -41,7 +41,7 @@
                 <div class="sidebar-nav navbar-collapse">
                     <ul class="nav" id="side-menu">
                         <li>
-                            <a href="home.php"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                            <a href="../pages/home.php"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                         </li>
                         <!-- <li>
                             <a href="pin-request.php"><i class="fa fa-adjust fa-fw"></i> Pin Request</a>
@@ -50,23 +50,23 @@
                             <a href="pin.php"><i class="fa fa-adjust fa-fw"></i>View Pin</a>
                         </li> -->
                         <li>
-                            <a href="join.php"><i class="fa fa-adjust fa-users"></i>Join Member</a>
+                            <a href="../pages/join.php"><i class="fa fa-adjust fa-users"></i>Join Member</a>
                         </li>
                         <li>
-                            <a href="member_profile.php"><i class="fa fa-adjust fa-users"></i>Member's Profile</a>
+                            <a href="../pages/member_profile.php"><i class="fa fa-adjust fa-users"></i>Member's Profile</a>
                         </li>
                         <li>
-                            <a href="member_list.php"><i class="fa fa-adjust fa-users"></i>Member's List</a>
+                            <a href="../pages/member_list.php"><i class="fa fa-adjust fa-users"></i>Member's List</a>
                         </li>
                         <li>
-                            <a href="tree.php"><i class="fa fa-adjust fa-tree"></i>Tree</a>
+                            <a href="../pages/tree.php"><i class="fa fa-adjust fa-tree"></i>Tree</a>
                         </li>
                         <li>
-                            <a href="weekly_bill_out.php"><i class="fa fa-adjust fa-dollar"></i>Weekly Bill Out</a>
+                            <a href="../pages/weekly_bill_out.php"><i class="fa fa-adjust fa-dollar"></i>Weekly Bill Out</a>
                         </li>
 						
 						<li>
-                            <a href="members_pay_chart.php"><i class="fa fa-adjust fa-list-ul"></i>Member's Pay Chart</a>
+                            <a href="../pages/members_pay_chart.php"><i class="fa fa-adjust fa-list-ul"></i>Member's Pay Chart</a>
                         </li>
 
 
